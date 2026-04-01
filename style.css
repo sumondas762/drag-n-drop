@@ -1,0 +1,74 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #1f1f1f, #2e2e2e);
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+/* 🔘 Button */
+.check-btn {
+  padding: 10px 25px;
+  background: #ff9800;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.check-btn:hover {
+  background: #e68900;
+  transform: scale(1.05);
+}
+
+/* 🧾 Result text */
+#result {
+  margin-top: 15px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* 🎮 Game board */
+.game-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+
+  width: 40%;
+  height: 183px;
+  margin: 20px auto;
+  min-height: 120px;
+
+  background: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* 🍾 Bottles */
+.bottle-box {
+  height: 70px;
+  width: 100px;
+  cursor: grab;
+  transition: transform 0.2s;
+}
+
+.bottle-box:active {
+  transform: scale(1.1);
+}
+
+.bottle-box img {
+  width: 100%;
+}
